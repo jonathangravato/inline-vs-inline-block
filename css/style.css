@@ -1,3 +1,5 @@
+/* MY CODE */
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -44,4 +46,8 @@ footer {
 
 .footer-nav img {
     width: 40px;
+}
+
+.burlywood {
+    background-color: rgb(255, 135, 135);
 }
