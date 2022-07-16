@@ -6,3 +6,11 @@
 .inline {
     display: inline;
 }
+
+/* Set value of header with the id of main-header to height: 100px...
+
+#main-header {
+    height: 100px;
+}
+
+*/
