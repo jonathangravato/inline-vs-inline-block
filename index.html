@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline VS Inline Block</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- These items will sit side by side as well as have the ability to set width and height properties to them. -->
+
+    <header class="navigation">
+        <div class="inline-block logo">
+            <img src="">
+        </div>
+        <nav class="inline-block">
+            <ul>
+                <li class="inline-block">about</li>
+                <li class="inline-block">skills</li>
+                <li class="inline-block">work</li>
+                <li class="inline-block">contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- These elements will work similarly to inline-block with the exception of the elements not being able to receive width and height properties...  -->
+
+    <header class="navigation">
+        <div class="inline logo">
+            <img src="">
+        </div>
+        <nav class="inline">
+            <ul>
+                <li class="inline">about</li>
+                <li class="inline">skills</li>
+                <li class="inline">work</li>
+                <li class="inline">contact</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
