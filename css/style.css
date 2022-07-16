@@ -14,3 +14,24 @@
 }
 
 */
+
+/* Begin portfolio cards section: flexbox properties */
+
+#portfolio {
+    min-height: 800px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    margin: 15px;
+}
+
+.card-body {
+    padding: 20px;
+}
