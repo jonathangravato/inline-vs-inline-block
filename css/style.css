@@ -7,13 +7,11 @@
     display: inline;
 }
 
-/* Set value of header with the id of main-header to height: 100px...
-
 #main-header {
-    height: 100px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
 }
-
-*/
 
 /* Begin portfolio cards section: flexbox properties */
 
